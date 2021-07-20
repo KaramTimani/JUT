@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JUT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="StyleForIndex.css" >	
+	<script type="text/javascript">
+	var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 2000;	// Time Between Switch
+	 
+// Image List
+images[0] = "Black  (smilie face).jpg";
+images[1] = "Blue  (smilie face).jpg";
+images[2] = "Dark Blue (smilie face).jpg";
+images[3] = "White  (smilie face).jpg";
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Back To O
+		i = 0;
+	}
+
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+		
+	
+	</script>
+</head>
+
+<body>
+<span class="navbar">
+	<div class="banner-text">
+	<!--<img src="Logo_JUT.png" alt="Logo" style="width: 100px;height: 50px;">-->
+		<b><span class ="jut" style="font-size:50px;">JUT</span></b>
+		
+		<ul> 
+   <li style="background-color: #000000;border-radius:25px;margin-top: 0.4rem;">
+   <a href="" style="text-decoration: none; color: inherit;"><img src="myaccounticon.png" alt="Logo" style="width: 15px;height:14px;">&nbsp;My Account</a></li>
+		</ul>
+		
+		</div> 
+
+	<div class="banner-text2">
+	<span class="tshirt"><a href="#imagest" alt="t-shirts" style="text-decoration: none; color: inherit;">T-shirts</a></span>
+		<span class="tshirt"><a href="#hoodiesw" alt="hoodies" style="text-decoration: none; color: inherit;">Hoodies</a></span>
+		
+	</div>
+	</span>
+	<div id="imagest"><img name="slide" alt="random" width="400" height="200" id="topim" /></div>
+	
+	
+	<a href="https://api.whatsapp.com/send/?phone=96176876306&text&app_absent=0" class="float" alt="whatsapp" style="text-decoration: none; color: inherit;"><img src="whatsappicon.png" alt="whatsappicon" style="width: 2.5rem;height:2.5rem;margin-top: 10px;">
+</a>
+<p style="color:#000000;padding-top:102%;text-align:center;">T-shirts</p>
+<div id="T-color">
+	<div class="tc" style="background-color: #000000;"></div>
+	<div class="tc" style="background-color: #ffffff;"></div>
+	<div class="tc" style="background-color: #1b126b;"></div>
+	<div class="tc" style="background-color: #386dff;"></div>
+</div>
+<div id="T-color2">
+	<div class="tc2">Black</div>
+	<div class="tc2">White</div>
+	<div class="tc2">D-Blue</div>
+	<div class="tc2">Blue</div>
+</div>
+<span id="theg1">
+	<div class="grid-container">
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+		
+  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;" id="hoodiesw"></div>
+		
+</div>
+		</span>
+		<p style="color:#000000;padding-top:2%;text-align:center;">Hoodies</p>
+		<div id="T-color">
+			<div class="tc" style="background-color: #000000;"></div>
+			<div class="tc" style="background-color: #ffffff;"></div>
+			<div class="tc" style="background-color: #1b126b;"></div>
+			<div class="tc" style="background-color: #386dff;"></div>
+		</div>
+		<div id="T-color2">
+			<div class="tc2">Black</div>
+			<div class="tc2">White</div>
+			<div class="tc2">D-Blue</div>
+			<div class="tc2">Blue</div>
+		</div>
+
+		<span id="theg2">
+			<div class="grid-container">
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
+				
+		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;" ></div>
+				
+		</div>
+				</span>
+</body>
+</html>
