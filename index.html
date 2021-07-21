@@ -5,39 +5,7 @@
 <title>JUT</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="StyleForIndex.css" >	
-	<script type="text/javascript">
-	var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 2000;	// Time Between Switch
-	 
-// Image List
-images[0] = "Black  (smilie face).jpg";
-images[1] = "Blue  (smilie face).jpg";
-images[2] = "Dark Blue (smilie face).jpg";
-images[3] = "White  (smilie face).jpg";
-
-// Change Image
-function changeImg(){
-	document.slide.src = images[i];
-
-	// Check If Index Is Under Max
-	if(i < images.length - 1){
-	  // Add 1 to Index
-	  i++; 
-	} else { 
-		// Reset Back To O
-		i = 0;
-	}
-
-	// Run function every x seconds
-	setTimeout("changeImg()", time);
-}
-
-// Run function when page loads
-window.onload=changeImg;
-		
-	
-	</script>
+	<script src="SlideShow.js"></script>
 </head>
 
 <body>
@@ -70,29 +38,18 @@ window.onload=changeImg;
 	<div class="tc" style="background-color: #ffffff;"></div>
 	<div class="tc" style="background-color: #1b126b;"></div>
 	<div class="tc" style="background-color: #386dff;"></div>
+	<div class="tc" style="background-color: #df3c3c;"></div>
+
 </div>
 <div id="T-color2">
 	<div class="tc2">Black</div>
 	<div class="tc2">White</div>
 	<div class="tc2">D-Blue</div>
 	<div class="tc2">Blue</div>
+	<div class="tc2">Red</div>
 </div>
 <span id="theg1">
 	<div class="grid-container">
-		
-  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-		
-  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-		
-  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-		
-  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-		
-  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-		
-  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-		
-  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
 		
   <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
 		
@@ -106,35 +63,22 @@ window.onload=changeImg;
 			<div class="tc" style="background-color: #ffffff;"></div>
 			<div class="tc" style="background-color: #1b126b;"></div>
 			<div class="tc" style="background-color: #386dff;"></div>
+			<div class="tc" style="background-color: #df3c3c;"></div>
+
 		</div>
 		<div id="T-color2">
 			<div class="tc2">Black</div>
 			<div class="tc2">White</div>
 			<div class="tc2">D-Blue</div>
 			<div class="tc2">Blue</div>
+			<div class="tc2">Red</div>
 		</div>
 
 		<span id="theg2">
 			<div class="grid-container">
 				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;"></div>
-				
-		  <div class="grid-item"><img src="Black  (smilie face).jpg" alt="tt" style="height:10rem;width:11.8rem;" ></div>
-				
+		  <div class="grid-item"><a href="#"><img name="slide2" alt="tt" style="height:10rem;width:11.8rem;"></a></div>
+	
 		</div>
 				</span>
 				<div class="footer-basic" >
