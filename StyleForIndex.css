@@ -129,7 +129,7 @@ padding-top:2%;
 #T-color{
 display:flex;
 align-items: center;
-border:2 px solid black;
+
 height:4rem;
 justify-content: center;
 align-items: center;
@@ -138,9 +138,9 @@ align-items: center;
 .tc{
 width: 3rem;
 height:3rem;
-border-radius: 5px;
-border-color:#000000;
-border: solid;
+border-radius: 50px;
+
+border: 1px solid #303030;
 
 margin:5px;
 text-align: center;
@@ -216,20 +216,22 @@ text-align: center;
 	display:inline-block;
 	text-align:center;
 	border-radius:50%;
-	border:1px solid #d3d1d1;
+	border:2px solid #d3d1d1;
 	margin:0 8px;
 	color:inherit;
 	opacity:0.75;
   }
   
   .footer-basic .social > a:hover {
-	opacity:20;
+	opacity:30;
   }
   
   .footer-basic .copyright {
+	  font-weight: bold;
 	margin-top:15px;
 	text-align:center;
 	font-size:13px;
 	color:rgb(202, 29, 29);
 	margin-bottom:0;
   }
+  
